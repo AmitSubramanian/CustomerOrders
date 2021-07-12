@@ -186,27 +186,5 @@ namespace CustomerOrdersService.Tests
                 Assert.Equal(customerId, resultValue.CustomerId);
             }
         }
-
-        //[Fact]
-        //public void IntsAreGenerated()
-        //{
-        //    var a = query();
-            
-        //}
-
-        //private IEnumerable<int> generateInts()
-        //{
-        //    while (true)
-        //    {
-        //        yield return 1;
-        //    }
-        //}
-
-        //private IEnumerable<int> query()
-        //{
-        //    var xs = from x in generateInts()
-        //             select x;
-        //    return xs;
-        //}
     }
 }
