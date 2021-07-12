@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerOrdersService</name>
+    </assembly>
+    <members>
+        <member name="M:CustomerOrdersService.Controllers.CustomersController.GetCustomers">
+            <summary>
+            Returns all customers.
+            </summary>
+        </member>
+        <member name="M:CustomerOrdersService.Controllers.CustomersController.GetOrdersByCustomer(System.Int32)">
+            <summary>
+            Gets all orders for a Customer Id.
+            </summary>   
+        </member>
+        <member name="M:CustomerOrdersService.Controllers.CustomersController.PostCustomer(CustomerOrdersService.Dtos.Create.CreateCustomerDto)">
+            <summary>
+            Creates a customer.
+            </summary>
+            <param name="customerDto">Details of customer that is to be created</param>   
+        </member>
+        <member name="M:CustomerOrdersService.Controllers.CustomersController.PostOrder(System.Int32,CustomerOrdersService.Dtos.Create.CreateOrderDto)">
+            <summary>
+            Creates an order for a specific customer.
+            </summary>
+            <param name="customerId">Customer Id</param>
+            <param name="orderDto">Details of order that is to be created</param>
+        </member>
+        <member name="M:CustomerOrdersService.Controllers.CustomersController.GetCustomerById(System.Int32)">
+            <summary>
+            Gets customer details for the given Customer Id.
+            </summary>
+            <param name="customerId">Customer Id</param>
+        </member>
+        <member name="M:CustomerOrdersService.Controllers.CustomersController.DeleteCustomer(System.Int32)">
+            <summary>
+            Deletes a specific customer and its orders.
+            </summary>
+            <param name="customerId">Customer Id</param>
+        </member>
+        <member name="M:CustomerOrdersService.Controllers.OrdersController.GetOrderById(System.Int32)">
+            <summary>
+            Gets a specific order.
+            </summary>
+            <param name="orderId">Order Id</param>
+        </member>
+        <member name="M:CustomerOrdersService.Controllers.OrdersController.DeleteOrder(System.Int32)">
+            <summary>
+            Deletes a specific order.
+            </summary>
+            <param name="orderId">Order Id</param>
+        </member>
+    </members>
+</doc>
